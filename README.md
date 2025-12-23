@@ -12,6 +12,6 @@ Al pulsar el botón la bombilla se enciende y se apaga y muestra la hora en la q
 
 <p align="center">
 <img src="img/Bombilla.png" width="300" height="300">
-<img src="img/BombillaEncendida.png" width="150" height="150">
-<img src="img/BombillaApagada.png" width="150" height="150">
+<img src="img/BombillaEncendida.png" width="350" height="350">
+<img src="img/BombillaApagada.png" width="350" height="350">
 </p>
