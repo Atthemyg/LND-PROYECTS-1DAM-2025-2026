@@ -31,7 +31,7 @@ Al pulsar el botón de "Good luck!" aparece un número de cinco cifras al azar.
 
 <table align="center">
   <tr>
-    <td><img src="img/Loteria.png" width="300"></td>
+    <td><img src="img/Loteria.png" width="500"></td>
     <td><img src="img/LoteriaNumero.png" width="500"></td>
   </tr>
 </table>
@@ -45,7 +45,7 @@ Al pulsar el botón "Roll the dice" aparece un número del 1 al 6 al azar.
 
 <table align="center">
   <tr>
-    <td><img src="img/Dado.png" width="300"></td>
+    <td><img src="img/Dado.png" width="500"></td>
     <td><img src="img/DadoNumero.png" width="500"></td>
   </tr>
 </table>
