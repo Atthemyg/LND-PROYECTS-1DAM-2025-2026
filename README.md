@@ -13,7 +13,7 @@ Al pulsar el botón la bombilla se enciende y se apaga y muestra la hora en la q
 <table align="center">
   <tr>
     <td><img src="img/Bombilla.png" width="300"></td>
-    <td><img src="img/BombillaEncendida.png" width="550"></td>
-    <td><img src="img/BombillaApagada.png" width="550"></td>
+    <td><img src="img/BombillaEncendida.png" width="500"></td>
+    <td><img src="img/BombillaApagada.png" width="500"></td>
   </tr>
 </table>
