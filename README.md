@@ -11,7 +11,7 @@
 Al pulsar el botón la bombilla se enciende y se apaga y muestra la hora en la que se realizó cada acción.
 
 <p align="center">
-<img src="img/Bombilla.png" width="300">
-<img src="img/BombillaEncendida.png" width="550">
-<img src="img/BombillaApagada.png" width="550">
+<img src="img/Bombilla.png" width="200">
+<img src="img/BombillaEncendida.png" width="300">
+<img src="img/BombillaApagada.png" width="300">
 </p>
