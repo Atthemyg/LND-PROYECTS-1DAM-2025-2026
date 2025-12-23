@@ -23,7 +23,7 @@ Al pulsar el botón "On/Off" la bombilla se enciende y se apaga y muestra la hor
 </table>
 
 
-### Loteria
+### Lotería
 
 Al pulsar el botón de "Good luck!" aparece un número de cinco cifras al azar.
 
