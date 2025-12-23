@@ -1,0 +1,69 @@
+<html>
+    <head>
+        <title>Dados</title>
+        <meta charset="utf-8">
+        <style>
+            body {
+                display:flex;
+                flex-direction:column;
+                height:90vh;
+                justify-content:center;
+                align-items:center;
+                background-color:#CEFAFE;
+            }
+            #contenedor {
+                display:grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                border:5px solid black;
+                background-color:white;
+            }
+            #dos, #siete {
+                grid-column-start:3;
+            }
+            div {
+                margin:20px;
+            }
+            button {
+                height:100px;
+                width:200px;
+                font-size:1.5em;
+                font-weight:bold;
+                background-image:linear-gradient(to bottom,grey,white,grey);
+                border:2px solid black;
+            }
+            img {
+                visibility:hidden;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="contenedor">
+            <img id="uno" src="http://lnd.angelmelchor.pro/circle.svg">
+            <img id="dos" src="http://lnd.angelmelchor.pro/circle.svg">
+            <img id="tres" src="http://lnd.angelmelchor.pro/circle.svg">
+            <img id="cuatro" src="http://lnd.angelmelchor.pro/circle.svg">
+            <img id="cinco" src="http://lnd.angelmelchor.pro/circle.svg">
+            <img id="seis" src="http://lnd.angelmelchor.pro/circle.svg">
+            <img id="siete" src="http://lnd.angelmelchor.pro/circle.svg">
+        </div>
+        <div>
+            <button onclick="rollDice()">Roll the dice</button>
+        </div>
+        <script>
+            const eluno=["hidden","hidden","hidden","visible","hidden","hidden","hidden"];
+            const eldos=["visible","hidden","hidden","hidden","hidden","hidden","visible"];
+            const eltres=["visible","hidden","hidden","visible","hidden","hidden","visible"];
+            const elcuatro=["visible","visible","hidden","hidden","hidden","visible","visible"];
+            const elcinco=["visible","visible","hidden","visible","hidden","visible","visible"];
+            const elseis=["visible","visible","visible","hidden","visible","visible","visible"];
+            const dadoFace=[eluno,eldos,eltres,elcuatro,elcinco,elseis];
+            const puntos=document.getElementsByTagName("img");
+            function rollDice() {
+                const dado=Math.ceil(Math.random()*6);
+                for (let i = 0; i < 7; i++) {
+                puntos[i].style.visibility=dadoFace[dado-1][i];
+            }
+        }
+        </script>
+    </body>
+</html>

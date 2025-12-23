@@ -1,0 +1,64 @@
+<html>
+    <head>
+        <title>Loteria</title>
+        <meta charset="utf-8">
+        <style>
+            body {
+                display:flex;
+                align-items:center;
+                justify-content:center;
+                height:90vh;
+            }
+            div {
+                border:2px dashed green;
+                height:80%;
+                width:50%;
+                display:flex;
+                flex-direction:column;
+                justify-content:space-around;
+                align-items:center;
+
+            }
+            p {
+                margin:0;
+                border:1px solid red;
+                width:80%;
+                height:20%;
+                display:flex;
+                justify-content:center;
+                align-items:center;
+                font-size:3em;
+                background-image:linear-gradient(to bottom,gold,white,gold);
+            }
+            button {
+                width:200px;
+                padding:20px;
+                background-color:DB0707;
+                color:white;
+                font-size:1.5em;
+                font-weight:bold;
+            }
+        </style>
+    </head>
+    <body>
+            <div>
+                <button id="random" onclick="numero()">Good luck!</button>
+            </div>
+            <script>
+                /*/<p id="resultado"></p> => esto va en el div
+                function numero() {
+                    const numero=Math.ceil(Math.random()*100000);
+                    const elementop=document.getElementById("resultado");
+                    elementop.innerText=numero;
+                }*/
+                const elementoRandom=document.getElementById("random");
+                const elementoMensaje=document.createElement("p");
+                elementoRandom.insertAdjacentElement("afterend",elementoMensaje);
+                function numero() {
+                let mensaje;
+                mensaje=Math.ceil(Math.random()*100000);
+                elementoMensaje.innerText=mensaje;
+                }
+            </script>
+    </body>
+</html>

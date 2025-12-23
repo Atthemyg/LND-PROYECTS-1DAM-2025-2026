@@ -1,0 +1,97 @@
+ <html>
+
+    <head>
+
+        <title>Domótica</title>
+
+        <meta charset="utf-8">
+
+        <style>
+
+            body> div {
+
+                display:flex;
+
+                flex-direction:column;
+
+                justify-content:center;
+
+                align-items:center;
+
+                height:90vh;
+
+            }
+
+            div div {
+
+                margin:1em;
+                text-align:center;
+
+            }
+
+            button {
+
+                width:100px;
+
+                height:50px;
+
+            }
+
+        </style>
+
+    </head>
+
+    <body>
+
+        <div>
+
+            <div>
+
+                <img id="bombilla" src="http://lnd.angelmelchor.pro/bulboff.gif" >
+
+            </div>
+
+            <div>
+
+                <button id="botonon" onclick="conmutar()">On</button>    
+
+            </div>
+
+        </div>
+
+        <script>
+            let encendida=false;
+            const elementoImg=document.getElementById("bombilla");
+            const elementoBotonOn=document.getElementById("botonon");
+            const elementoMensaje=document.createElement("h3");
+            elementoImg.insertAdjacentElement("afterend",elementoMensaje);
+            function conmutar() {
+                const fecha=new Date();
+                const hora=fecha.getHours();
+                const minuto=fecha.getMinutes();
+                const segundos=fecha.getSeconds();
+                let mensaje;
+                if (encendida) {
+                    elementoImg.src="http://lnd.angelmelchor.pro/bulboff.gif";
+                    elementoBotonOn.style.color="white";
+                    elementoBotonOn.style.backgroundColor="red";
+                    elementoBotonOn.innerText="On";
+                    mensaje="Bombilla apagada a las "+hora+":"+minuto+":"+segundos;
+                    elementoMensaje.innerText=mensaje;
+                    encendida=false;
+                }
+                else {
+                    elementoImg.src="http://lnd.angelmelchor.pro/bulbon.gif";
+                    elementoBotonOn.style.color="white";
+                    elementoBotonOn.style.backgroundColor="green";
+                    elementoBotonOn.innerText="Off";
+                    mensaje="Bombilla encendida a las "+hora+":"+minuto+":"+segundos;
+                    elementoMensaje.innerText=mensaje;
+                    encendida=true;
+                }
+            }
+        </script>
+
+    </body>
+
+</html>
