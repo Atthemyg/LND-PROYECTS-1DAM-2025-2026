@@ -3,12 +3,14 @@
 - [HTML + CSS + JavaScript](#HTML+CSS+JavaScript)
 
     - [Bombilla](#bombilla)
+    - [Loteria](#loteria)
+    - [Dado](#dado)
 
 ## HTML + CSS + JavaScript
 
 ### Bombilla
 
-Al pulsar el botón la bombilla se enciende y se apaga y muestra la hora en la que se realizó cada acción.
+Al pulsar el botón "On/Off" la bombilla se enciende y se apaga y muestra la hora en la que se realizó cada acción.
 
 <br>
 
@@ -17,5 +19,33 @@ Al pulsar el botón la bombilla se enciende y se apaga y muestra la hora en la q
     <td><img src="img/Bombilla.png" width="300"></td>
     <td><img src="img/BombillaEncendida.png" width="500"></td>
     <td><img src="img/BombillaApagada.png" width="500"></td>
+  </tr>
+</table>
+
+
+### Loteria
+
+Al pulsar el botón de "Good luck!" aparece un número de cinco cifras al azar.
+
+<br>
+
+<table align="center">
+  <tr>
+    <td><img src="img/Loteria.png" width="300"></td>
+    <td><img src="img/LoteriaNumero.png" width="500"></td>
+  </tr>
+</table>
+
+
+### Dado
+
+Al pulsar el botón "Roll the dice" aparece un número del 1 al 6 al azar.
+
+<br>
+
+<table align="center">
+  <tr>
+    <td><img src="img/Dado.png" width="300"></td>
+    <td><img src="img/DadoNumero.png" width="500"></td>
   </tr>
 </table>
