@@ -18,7 +18,7 @@ Al pulsar el botón "On/Off" la bombilla se enciende y se apaga y muestra la hor
 
 <table align="center">
   <tr>
-    <td><img src="img/Bombilla.png" width="300"></td>
+    <td><img src="img/Bombilla.png" width="500"></td>
     <td><img src="img/BombillaEncendida.png" width="500"></td>
     <td><img src="img/BombillaApagada.png" width="500"></td>
   </tr>
