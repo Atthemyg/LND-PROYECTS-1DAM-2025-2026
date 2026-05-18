@@ -76,7 +76,7 @@ Bloc de notas. Se pueden buscar, fijar y aparece la fecha en la que se crea.
 
 <br>
 
-<img src="img/Notas.PNG" width="800">
+<img src="img/Notas.PNG" width="900">
 
 ## Paleta de colores
 
