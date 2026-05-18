@@ -85,7 +85,7 @@ Al subir una imagen detecta los colores en la misma para crear una paleta de col
 <br>
 
 <p align="center">
-  <img src="img/PaletaColores.PNG" width="500">
+  <img src="img/PaletaColores.PNG" width="900">
 </p>
 
 ## Memory Card Game
