@@ -8,8 +8,8 @@
     - [Loteria](#loteria)
     - [Dado](#dado)
     - [Bloc de notas](#blocdenotas)
-    - [Memory Card Game](#memorycardgame)
     - [Paleta de colores](#paletadecolores)
+    - [Memory Card Game](#memorycardgame)
  
 <br>
 
@@ -84,7 +84,7 @@ Al subir una imagen detecta los colores en la misma para crear una paleta de col
 
 <br>
 
-<img src="img/PaletaColores.PNG" width="800">
+<img src="img/PaletaColores.PNG" width="500">
 
 ## Memory Card Game
 
