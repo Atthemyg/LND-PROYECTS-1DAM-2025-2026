@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  background: #eee4bc;
+  color: rgb(169, 151, 49);
+  font-family: Arial;
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+}
+
+.container {
+  width: 600px;
+  text-align: center;
+}
+
+#preview {
+  max-width: 100%;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+#palette {
+  display: flex;
+  margin-top: 20px;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.color {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  cursor: pointer;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  padding-bottom: 10px;
+  font-weight: bold;
+  color: white;
+}

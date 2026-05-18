@@ -9,6 +9,7 @@
     - [Dado](#dado)
     - [Bloc de notas](#blocdenotas)
     - [Memory Card Game](#memorycardgame)
+    - [Paleta de colores](#paletadecolores)
  
 <br>
 
@@ -75,8 +76,15 @@ Bloc de notas. Se pueden buscar, fijar y aparece la fecha en la que se crea.
 
 <br>
 
-<img src="img/Notas.PNG" width="800"></td>
+<img src="img/Notas.PNG" width="800">
 
+## Paleta de colores
+
+Al subir una imagen detecta los colores en la misma para crear una paleta de colores.
+
+<br>
+
+<img src="img/PaletaColores.PNG" width="800">
 
 ## Memory Card Game
 
