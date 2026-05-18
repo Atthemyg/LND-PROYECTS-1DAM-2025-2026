@@ -76,7 +76,7 @@ Bloc de notas. Se pueden buscar, fijar y aparece la fecha en la que se crea.
 
 <br>
 
-<img src="img/Notas.PNG" width="900">
+<img src="img/Notas.PNG" width="1000">
 
 ## Paleta de colores
 
@@ -84,7 +84,7 @@ Al subir una imagen detecta los colores en la misma para crear una paleta de col
 
 <br>
 
-<img src="img/PaletaColores.PNG" width="500">
+<img align="center" src="img/PaletaColores.PNG" width="500">
 
 ## Memory Card Game
 
